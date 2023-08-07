@@ -7,7 +7,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Set the URL you want to open
-url = "file:///home/pandragon/Downloads/Telegram%20Desktop/Peg/Peg%20engine%20(2)/Online%20version%20%C2%BB%20PEG.js%20%E2%80%93%20Parser%20Generator%20for%20JavaScript.html"
+url =  input("Press Enter the URL to the peg engine.")
+
+# Defult peg engine url
+# "file:///home/pandragon/Downloads/Telegram%20Desktop/Peg/Peg%20engine%20(2)/Online%20version%20%C2%BB%20PEG.js%20%E2%80%93%20Parser%20Generator%20for%20JavaScript.html"
 
 # Get the current directory
 current_directory = os.path.dirname(os.path.abspath(__file__))
