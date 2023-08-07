@@ -51,23 +51,23 @@ This script automates the extraction of JSON data from `.MIR` files using a web-
 
 ## Folder Structure
 
-The script expects the following folder structure:
-project_root/
-│
-├── Mir_Folder_1/
-│ ├── file1.MIR
-│ ├── file2.MIR
-│ └── ...
-│
-├── Mir_Folder_2/
-│ ├── file1.MIR
-│ ├── file2.MIR
-│ └── ...
-│
-├── ...
-│
-├── mir_data_extractor.py
-│
+The script expects the following folder structure:\
+project_root/\
+│\
+├── Mir_Folder_1\
+│ ├── file1.MIR\
+│ ├── file2.MIR\
+│ └── ...\
+│\
+├── Mir_Folder_2\
+│ ├── file1.MIR\
+│ ├── file2.MIR\
+│ └── ...\
+│\
+├── ...\
+│\
+├── mir_data_extractor.py\
+│\
 └── README.md
 
 Folders containing .MIR files should be located in the root directory of the project, and their names should start with "Mir".
