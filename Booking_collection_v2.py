@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# Set the URL you want to open
+# Set the URL To the Peg engine
 url =  input("Press Enter the URL to the peg engine.")
 
 # Defult peg engine url
