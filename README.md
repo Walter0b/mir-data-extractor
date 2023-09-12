@@ -20,7 +20,7 @@ This script automates the extraction of JSON data from `.MIR` files using a web-
 
 - Python 3.x
 - Selenium library (install using `pip install selenium`)
-- Firefox web browser (for WebDriver support)
+- Firefox web browser or Google chrome (for WebDriver support)
 
 ## Usage
 
