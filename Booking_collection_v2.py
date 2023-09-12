@@ -18,8 +18,18 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 # Set the parent folder path containing folders starting with "Mir"
 parent_folder_path = current_directory
 
-# Create a Firefox browser instance
-driver = webdriver.Firefox()
+# Ask the user for their choice of browser
+browser_choice = input("Enter 'F' for Firefox or 'C' for Chrome: ").strip().upper()
+
+if browser_choice == "F":
+    # Create a Firefox browser instance
+    driver = webdriver.Firefox()
+elif browser_choice == "C":
+    # Create a Chrome browser instance
+    driver = webdriver.Chrome()
+else:
+    print("Invalid choice. Exiting.")
+    exit()
 
 # Open the URL in the browser
 driver.get(url)
